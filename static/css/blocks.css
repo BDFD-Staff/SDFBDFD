@@ -1,0 +1,50 @@
+.draggable {
+  text-align: left;
+  padding: 1rem;
+  cursor: move;
+  border-radius: 10px; 
+  max-width: 300px;
+  color: #fff;
+}
+.draggable input {
+  border: none;
+  margin-top: 5px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  width: calc(100% - 20px);
+}
+.draggable textarea {
+  border: none;
+  margin-top: 5px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  width: calc(100% - 20px);
+  resize: none;
+  font-family: var(--font);
+  font-size: 15px;
+}
+.reply {
+  background: #9966ff;
+}
+#b004, #b005, #b004c, #b005c {
+  background: #40bf4a;
+}
+.top.draggable {
+  border-radius: 10px 10px 0px 0px;
+}
+.center.draggable {
+  border-radius: 0px;
+}
+.bottom.draggable {
+  border-radius: 0px 0px 10px 10px;
+}
+
+.playground .top {
+  margin-bottom: 0px;
+}
+.playground .center {
+  margin: 0px;
+}
+.playground .bottom {
+  margin-top: 0px;
+}
