@@ -1,2 +1,3 @@
-# SDFBDFD
-idk @ToroEen did this
+# sdfbdfd
+
+Scratch inspired code editor for BDFD.
